@@ -1,5 +1,6 @@
 body {
     height: 90vh;
+    font-family: arial, sans-serif;
 }
 
 ul {
@@ -26,7 +27,7 @@ footer {
 }
 
 #middle_div {
-    margin-top: 275px;
+    margin-top: 250px;
     text-align: center;
 }
 
@@ -63,11 +64,48 @@ a:hover {
 }
 
 .header_links {
-    font-size: 16px;
+    font-size: 14px;
     color: black;
 }
 
 .footer_links {
-    font-size: 16px;
-    color: rgb(70, 70, 70);
+    font-size: 14px;
+    color: rgb(110, 110, 110);
+}
+
+img {
+    margin-bottom: 20px;
+}
+
+input {
+    margin-bottom: 20px;
+    width: 500px;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 8px 20px 8px 20px;
+    border: solid;
+    border-width: 1px;
+    border-color: rgb(215, 215, 215);
+}
+
+input:hover {
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+#button1 {
+    margin-right: 10px;
+}
+
+.Cool_Buttons {
+    padding: 10px 20px 10px 20px;
+    background-color: rgb(245, 245, 245);
+    border: none;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+button:hover {
+    border: solid;
+    border-width: 1px;
+    border-color: rgba(0, 0, 0, 0.2);
 }
