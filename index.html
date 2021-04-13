@@ -1,41 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
 </head>
 <body>
     <header>
         <nav>
-            <ul>
-                <li><a href="">About</a></li>
-                <li><a href="">Store</a></li>
-                <li><a href="">Gmail</a></li>
-                <li><a href="">Images</a></li>
+            <ul id="header_boxes">
+                <li id="header_box1"><a class="header_links" href="">About</a></li>
+                <li id="header_box2"><a class="header_links" href="">Store</a></li>
+                <li id="header_box3"><a class="header_links" href="">Gmail</a></li>
+                <li id="header_box4"><a class="header_links" href="">Images</a></li>
             </ul>
         </nav>
     </header>
-    <div>
-        <img alt="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
-    </div>
-    <div>
-        <form>
-            <div>
-                <input type="text">
-            </div>
-            <div>
-                <button type="button">Google Search</button>
-                <button type="button">I'm Feeling Lucky</button>
-            </div>
-        </form>
+    <div id="middle_div">
+        <div>
+            <img alt="googlelogo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>
+        <div id="body_div">
+            <form>
+                <div>
+                    <input type="text">
+                </div>
+                <div>
+                    <button type="button">Google Search</button>
+                    <button type="button">I'm Feeling Lucky</button>
+                </div>
+            </form>
+        </div>
     </div>
     <footer>
         <nav>
-            <li><a href="">Advertising</a></li>
-            <li><a href="">Business</a></li>
-            <li><a href="">How Search Works</a></li>
-            <li><a href="">Privacy</a></li>
-            <li><a href="">Terms</a></li>
-            <li><a href="">Settings</a></li> 
+            <ul id="footer_boxes">
+                <li id="footer_box1"><a class="footer_links" href="">Advertising</a></li>
+                <li id="footer_box2"><a class="footer_links" href="">Business</a></li>
+                <li id="footer_box3"><a class="footer_links" href="">How Search Works</a></li>
+                <li id="footer_box4"><a class="footer_links" href="">Privacy</a></li>
+                <li id="footer_box5"><a class="footer_links" href="">Terms</a></li>
+                <li id="footer_box6"><a class="footer_links" href="">Settings</a></li> 
+            </ul>
         </nav>
     </footer>
 </body>

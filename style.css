@@ -1,6 +1,5 @@
 body {
-    height: 100vh;
-    text-align: center;
+    height: 90vh;
 }
 
 ul {
@@ -12,3 +11,63 @@ ul {
 li {
     display: inline;
   }
+
+header {
+    margin: 20px 0px 10px 20px;
+}
+
+footer {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    padding: 15px 20px 15px 20px;
+    margin: 0px 0px 0px -10px;
+    position: fixed;
+    bottom: 0;
+}
+
+#middle_div {
+    margin-top: 275px;
+    text-align: center;
+}
+
+#header_boxes {
+    display: grid;
+    grid-template-columns: repeat(2, 75px) 1fr repeat(2, 75px);
+    grid-template-rows: repeat(1, auto);
+}
+
+#header_box1 {grid-column: 1;}
+#header_box2 {grid-column: 2;}
+#header_box3 {grid-column: 4;}
+#header_box4 {grid-column: 5;}
+
+#footer_boxes {
+    display: grid;
+    grid-template-columns: 100px 80px 150px 1fr repeat(2, 75px) 100px;
+    grid-template-rows: repeat(1, auto);
+}
+
+#footer_box1 {grid-column: 1;}
+#footer_box2 {grid-column: 2;}
+#footer_box3 {grid-column: 3;}
+#footer_box4 {grid-column: 5;}
+#footer_box5 {grid-column: 6;}
+#footer_box6 {grid-column: 7;}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.header_links {
+    font-size: 16px;
+    color: black;
+}
+
+.footer_links {
+    font-size: 16px;
+    color: rgb(70, 70, 70);
+}
